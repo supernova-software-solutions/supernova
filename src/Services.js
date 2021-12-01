@@ -23,7 +23,7 @@ class Services extends React.Component {
                             <img src={checkmark} alt="checkmark"/>
                         </div>
                         <div className="checklist-text">
-                            Full-Stack solutions that encompass everything from building UIs using React and JS to complex jvm-based microservices
+                            Full-Stack solutions encompassing everything from building UIs using React and JS to complex jvm-based microservices
                             with event-streaming and datastores
                         </div>
                     </div>
