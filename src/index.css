@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  margin-top: 30px;
+}
+
+#card-container {
+  margin-top: 30px;
+  background-color: white;
+  max-width: 600px;
+  width: 90%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 12px;
+}
+
+#card-picture {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-right: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 10px;
+  max-width: 25%;
+}
+
+#card-picture img {
+  width: 90%;
+}
+
+#card-text {
+  padding-left: 15px;
+  text-align: left;
+  max-width: 70%;
+  font-size: 20px;
+}
+
+#services-container {
+  margin-top: 50px;
+  background-color: white;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 12px;
+}
+
+#services-headline {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  /*width: 90%;*/
+  border-bottom: 1px solid lightgray;
+  font-size: 30px;
+}
+
+#services-checklist {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: black;
+}
+
+.checklist-item {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#services-checklist .checklist-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.checklist-checkmark {
+  margin-right: 15px;
+}
+
+.checklist-text {
+  line-height: 22px;
+  text-align: left;
+  max-width: 500px;
+}
+
+#contact-container {
+  margin-top: 50px;
+  background-color: white;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+#contact-headline {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  border-bottom: 1px solid lightgray;
+  font-size: 30px;
+}
+
+#contact-list {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 22px;
+  text-align: left;
+  color: black;
+}
+
+.contact-item {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-logo {
+  width: 24px;
+  margin-right: 15px;
+}
+
+#contact-list a, a:hover, a:focus, a:active {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  max-width: 170px;
+}
+
+#footer-container {
+  margin-top: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+#copyright-info {
+  margin-right: 5px;
+}
+
+#copyright-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
