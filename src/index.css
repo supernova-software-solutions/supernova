@@ -52,7 +52,7 @@ code {
   padding-left: 15px;
   text-align: left;
   max-width: 70%;
-  font-size: clamp(18px, 2.2vw, 20px);
+  font-size: clamp(16px, 2.2vw, 20px);
   margin-right: 10px;
 }
 
