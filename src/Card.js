@@ -7,7 +7,7 @@ class Card extends React.Component {
         return (
             <div id="card-container">
                 <div id="card-picture">
-                    <img src={logo} alt="logo"/>
+                    <div id="card-img"/>
                 </div>
                 <div id="card-text">Supernova is a small, full-stack web development consultancy based in Orange County, California and
                     run
