@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "./circle-cropped.png";
 
 class Card extends React.Component {
 
