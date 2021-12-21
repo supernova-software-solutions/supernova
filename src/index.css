@@ -113,7 +113,7 @@ code {
   margin-top: 50px;
   margin-bottom: 100px;
   background-color: white;
-  max-width: 600px;
+  max-width: 450px;
   width: 90%;
   border-radius: 12px;
   font-size: 16px;
@@ -128,10 +128,14 @@ code {
   color: black;
   border-bottom: 1px solid lightgray;
   font-size: clamp(22px, 2.2vw, 26px);
-
 }
 
-#contact-list {
+#contact-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 30px;
   line-height: 22px;
@@ -140,18 +144,55 @@ code {
   font-size: clamp(14px, 2.2vw, 16px);
 }
 
+#contact-list {
+  width: 80%;
+}
+
 .contact-item {
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 
 .contact-logo {
   width: 24px;
   margin-right: 15px;
+}
+
+.contact-item-number {
+  text-align: center;
+  line-height: 30px;
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.contact-item-input {
+  width: 90%;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#contact-textarea {
+  margin-top: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 99%;
+  height: 100px;
+  resize: none;
+  font-family: inherit;
+  font-size: clamp(14px, 2.2vw, 16px);
 }
 
 #contact-list a, a:hover, a:focus, a:active {

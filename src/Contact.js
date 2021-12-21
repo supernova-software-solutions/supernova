@@ -1,7 +1,4 @@
 import React from "react";
-import mail from "./mail.svg"
-import linkedin from "./linkedin.svg"
-import party from "./party.svg"
 
 class Card extends React.Component {
 
@@ -10,19 +7,22 @@ class Card extends React.Component {
             <div id="contact-container">
                 <div id="contact-headline">Contact
                 </div>
-                <div id="contact-list">
-                    <div className="contact-item">
-                        <div className="contact-logo"><img src={party} alt="opening date"/></div>
-                        <div>Open for business starting January 2022</div>
+                <div id="contact-list-container">
+                    <div id="contact-list">
+                        <div className="contact-item">
+                            <div className="contact-item-number">1</div>
+                            <input className="contact-item-input" type="text"/>
+                        </div>
+                        <div className="contact-item">
+                            <div className="contact-item-number">2</div>
+                            <input className="contact-item-input" type="text"/>
+                        </div>
+                        <div className="contact-item">
+                            <div className="contact-item-number">3</div>
+                            <div>Describe what you're looking for below</div>
+                        </div>
+                        <textarea id="contact-textarea"/>
                     </div>
-                    <div className="contact-item">
-                        <div className="contact-logo"><img src={mail} alt="email"/></div>
-                        <div>Contact form coming soon</div>
-                    </div>
-                    <a className="contact-item" href="https://www.linkedin.com/in/john-marvin-davis-01b77834/">
-                        <div className="contact-logo"><img src={linkedin} alt="linkedin"/></div>
-                        <div>LinkedIn Profile</div>
-                    </a>
                 </div>
             </div>
         );
