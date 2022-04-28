@@ -12,7 +12,7 @@ class Footer extends React.Component {
                     <img src={copyright} alt="copyright logo"/>
                 </div>
                 <div id="copyright-year">
-                    2021
+                    2022
                 </div>
             </div>
         );
