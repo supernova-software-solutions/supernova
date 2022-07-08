@@ -8,7 +8,7 @@ class Card extends React.Component {
                 <div id="card-picture">
                     <div id="card-img"/>
                 </div>
-                <div id="card-text">Supernova is a small, full-stack web development consultancy based in Orange County, California and
+                <div id="card-text">Supernova is a small, full-stack web development consultancy based in Nashville, Tennessee, USA and
                     run
                     by John-Marvin Davis
                 </div>
