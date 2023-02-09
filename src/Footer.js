@@ -4,6 +4,8 @@ import copyright from "./copyright.svg"
 class Footer extends React.Component {
 
     render() {
+        const currentYear = new Date().getFullYear();
+
         return (
             <div id="footer-container">
                 <div id="copyright-info">SUPERNOVA SOFTWARE SOLUTIONS, LLC
@@ -12,7 +14,7 @@ class Footer extends React.Component {
                     <img src={copyright} alt="copyright logo"/>
                 </div>
                 <div id="copyright-year">
-                    2022
+                    {currentYear}
                 </div>
             </div>
         );

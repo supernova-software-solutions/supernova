@@ -4,6 +4,8 @@ import checkmark from "./checked-circle.svg";
 class Services extends React.Component {
 
     render() {
+        const yearsAsProDev = new Date(new Date().getTime() - new Date("2014-05-12").getTime()).getFullYear() - 1970
+
         return (
             <div id="services-container">
                 <div id="services-headline">
@@ -15,7 +17,7 @@ class Services extends React.Component {
                             <img src={checkmark} alt="checkmark"/>
                         </div>
                         <div className="checklist-text">
-                        7+ Years of professional web development experience
+                        {yearsAsProDev}+ Years of professional web development experience
                         </div>
                     </div>
                     <div className="checklist-item">
