@@ -15,7 +15,6 @@ class Card extends React.Component {
                         <div className="contact-logo"><img src={party} alt="opening date"/></div>
                         <div>Open for business starting January 2022</div>
                     </div>
-                    //TODO: Get rid of this and replace it
                     <div className="contact-item">
                         <div className="contact-logo"><img src={mail} alt="email"/></div>
                         <div>Contact form coming soon</div>
